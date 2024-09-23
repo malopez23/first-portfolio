@@ -155,7 +155,7 @@ body {
     grid-template-columns: 3fr 1fr;
     align-items: center;
 }
-
+/* STYLE ANTIGO
 .apresentacao__repositorio {
     margin-top: 80px;
     text-align: center;
@@ -209,7 +209,54 @@ body {
 .projeto:hover {
     width: 62%;
     transition: 0.3s;
+} */
+
+.apresentacao__repositorio {
+    margin-top: 8em;
 }
+
+.grid__imagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    
+}
+
+.repositorio__titulo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-principal);
+    margin-bottom: 2em;
+}
+
+.repositorio__texto {
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+}
+
+.repositorio__link {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: 1em;
+}
+
+.repositorio__link:hover {
+    color: var(--cor-terciaria);
+}
+
+.repositorio__foto {
+    min-height: 100px;
+    min-width: 5px;
+    max-width: 35%;
+    max-height: 5px;
+    padding: 8px;
+    border: 4px solid var(--cor-terciaria);
+    border-radius: 16px;
+
+}
+
 
 @media (max-width: 1200px) {
     .cabecalho {
@@ -258,6 +305,10 @@ body {
 
     .apresentacao__imagem {
         display: none;
+    }
+
+    .grid__imagens {
+        grid-template-columns: 1fr;
     }
 
 }
