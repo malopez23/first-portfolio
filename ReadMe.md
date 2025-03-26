@@ -27,6 +27,6 @@ Acesse diretamente o portfólio hospedado na Vercel:
 - Adicionar frameworks
 
 ## Contato
-- GitHub: github.com/malopez23
+- GitHub: [github.com/malopez23](https://github.com/malopez23)
 - Linkedin: https://www.linkedin.com/in/marcelolopez23/
 - Email: malopez.rodriguez23@gmail.com
