@@ -358,7 +358,7 @@ body {
 
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
     .cabecalho {
         gap: 8px;
         padding-left: 20px;
